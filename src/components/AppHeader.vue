@@ -43,7 +43,7 @@ export default {
   data() {
     return {
       isMobileMenuOpen: false,
-      activeSection: 'home',
+      activeSection: 'LandingPageView',
     };
   },
   methods: {
