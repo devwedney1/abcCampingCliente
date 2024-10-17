@@ -8,8 +8,8 @@ const router = createRouter({
       path: '/',
       name: 'LandingPageView',
       component: LandingPageView
-    },
-  ]
+    }
+  ],
 })
 
 export default router
