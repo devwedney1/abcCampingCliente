@@ -43,16 +43,16 @@ export default {
   data() {
     return {
       isMobileMenuOpen: false,
-      activeSection: 'LandingPageView',
-    };
+      activeSection: 'LandingPageView'
+    }
   },
   methods: {
     toggleMobileMenu() {
-      this.isMobileMenuOpen = !this.isMobileMenuOpen;
+      this.isMobileMenuOpen = !this.isMobileMenuOpen
     },
     setActiveSection(section) {
-      this.activeSection = section;
-    },
-  },
-};
+      this.activeSection = section
+    }
+  }
+}
 </script>
